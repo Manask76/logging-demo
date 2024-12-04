@@ -1,0 +1,103 @@
+2024-12-04 12:38:25.806 [main] INFO  c.e.p.ProjectFirstApplication (StartupInfoLogger.java:532024-12-04 12:38:25.809 [main] INFO  c.e.p.ProjectFirstApplication (SpringApplication.java:6522024-12-04 12:38:26.500 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer (TomcatWebServer.java:1112024-12-04 12:38:26.508 [main] INFO  o.a.coyote.http11.Http11NioProtocol (DirectJDKLog.java:1732024-12-04 12:38:26.510 [main] INFO  o.a.catalina.core.StandardService (DirectJDKLog.java:1732024-12-04 12:38:26.510 [main] INFO  o.a.catalina.core.StandardEngine (DirectJDKLog.java:1732024-12-04 12:38:26.543 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] (DirectJDKLog.java:1732024-12-04 12:38:26.544 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext (ServletWebServerApplicationContext.java:2962024-12-04 12:38:26.752 [main] INFO  o.a.coyote.http11.Http11NioProtocol (DirectJDKLog.java:1732024-12-04 12:38:26.773 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer (TomcatWebServer.java:2432024-12-04 12:38:26.781 [main] INFO  c.e.p.ProjectFirstApplication (StartupInfoLogger.java:592024-12-04 12:38:39.724 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] (DirectJDKLog.java:1732024-12-04 12:38:39.724 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet (FrameworkServlet.java:5322024-12-04 12:38:39.725 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet (FrameworkServlet.java:5542024-12-04 12:38:39.748 [http-nio-8080-exec-1] INFO  c.e.p.controller.HomeController (HomeController.java:222024-12-04 12:38:39.749 [http-nio-8080-exec-1] ERROR c.e.p.controller.HomeController (HomeController.java:242024-12-04 12:38:39.749 [http-nio-8080-exec-1] WARN  c.e.p.controller.HomeController (HomeController.java:252024-12-04 12:39:34.979 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown (GracefulShutdown.java:542024-12-04 12:39:34.986 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown (GracefulShutdown.java:762024-12-04 12:39:36.738 [main] INFO  c.e.p.ProjectFirstApplication - Starting ProjectFirstApplication using Java 21.0.5 with PID 1975 (/Users/manas/Downloads/projectFirst 2/target/classes started by manas in /Users/manas/Downloads/projectFirst 2)
+2024-12-04 12:39:36.740 [main] INFO  c.e.p.ProjectFirstApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-04 12:39:37.395 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-04 12:39:37.403 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:39:37.404 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-04 12:39:37.405 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04 12:39:37.437 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-04 12:39:37.438 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 653 ms
+2024-12-04 12:39:37.635 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:39:37.658 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-04 12:39:37.666 [main] INFO  c.e.p.ProjectFirstApplication - Started ProjectFirstApplication in 1.402 seconds (process running for 1.799)
+2024-12-04 12:40:05.098 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 12:40:05.098 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-04 12:40:05.099 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-04 12:40:05.125 [http-nio-8080-exec-1] INFO  c.e.p.controller.HomeController - This is api calling manas
+2024-12-04 12:40:05.126 [http-nio-8080-exec-1] ERROR c.e.p.controller.HomeController - This is api calling manas
+2024-12-04 12:40:05.127 [http-nio-8080-exec-1] WARN  c.e.p.controller.HomeController - This is api calling manas
+2024-12-04 12:49:46.207 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04 12:49:46.214 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-04 12:49:48.719 [main] INFO  c.e.p.ProjectFirstApplication - Starting ProjectFirstApplication using Java 21.0.5 with PID 2013 (/Users/manas/Downloads/projectFirst 2/target/classes started by manas in /Users/manas/Downloads/projectFirst 2)
+2024-12-04 12:49:48.721 [main] INFO  c.e.p.ProjectFirstApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-04 12:49:49.408 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-04 12:49:49.425 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:49:49.427 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-04 12:49:49.427 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04 12:49:49.461 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-04 12:49:49.462 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 694 ms
+2024-12-04 12:49:49.676 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:49:49.695 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-04 12:49:49.702 [main] INFO  c.e.p.ProjectFirstApplication - Started ProjectFirstApplication in 1.518 seconds (process running for 1.888)
+2024-12-04 12:49:54.810 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 12:49:54.810 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-04 12:49:54.811 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-04 12:49:54.838 [http-nio-8080-exec-1] INFO  c.e.p.controller.HomeController - INFO: This is API calling manas
+2024-12-04 12:50:44.400 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04 12:50:44.406 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-04 12:50:46.805 [main] INFO  c.e.p.ProjectFirstApplication - Starting ProjectFirstApplication using Java 21.0.5 with PID 2022 (/Users/manas/Downloads/projectFirst 2/target/classes started by manas in /Users/manas/Downloads/projectFirst 2)
+2024-12-04 12:50:46.807 [main] INFO  c.e.p.ProjectFirstApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-04 12:50:47.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-04 12:50:47.514 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:50:47.515 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-04 12:50:47.516 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04 12:50:47.552 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-04 12:50:47.553 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 698 ms
+2024-12-04 12:50:47.777 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:50:47.796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-04 12:50:47.803 [main] INFO  c.e.p.ProjectFirstApplication - Started ProjectFirstApplication in 1.514 seconds (process running for 1.886)
+2024-12-04 12:50:51.442 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 12:50:51.442 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-04 12:50:51.443 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-04 12:51:03.966 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04 12:51:03.974 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-04 12:51:06.322 [main] INFO  c.e.p.ProjectFirstApplication - Starting ProjectFirstApplication using Java 21.0.5 with PID 2026 (/Users/manas/Downloads/projectFirst 2/target/classes started by manas in /Users/manas/Downloads/projectFirst 2)
+2024-12-04 12:51:06.324 [main] INFO  c.e.p.ProjectFirstApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-04 12:51:06.995 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-04 12:51:07.004 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:51:07.006 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-04 12:51:07.006 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04 12:51:07.049 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-04 12:51:07.050 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 667 ms
+2024-12-04 12:51:07.265 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:51:07.280 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-04 12:51:07.287 [main] INFO  c.e.p.ProjectFirstApplication - Started ProjectFirstApplication in 1.486 seconds (process running for 1.842)
+2024-12-04 12:51:11.415 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 12:51:11.415 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-04 12:51:11.416 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-04 12:51:11.443 [http-nio-8080-exec-1] ERROR c.e.p.controller.HomeController - ERROR: This is API calling manas
+2024-12-04 12:51:39.476 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04 12:51:39.484 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-04 12:56:01.977 [main] INFO  c.e.p.ProjectFirstApplication - Starting ProjectFirstApplication using Java 21.0.5 with PID 2048 (/Users/manas/Downloads/projectFirst 2/target/classes started by manas in /Users/manas/Downloads/projectFirst 2)
+2024-12-04 12:56:01.979 [main] INFO  c.e.p.ProjectFirstApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-04 12:56:02.682 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-04 12:56:02.691 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:56:02.693 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-04 12:56:02.693 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04 12:56:02.727 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-04 12:56:02.728 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 702 ms
+2024-12-04 12:56:02.949 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:56:02.965 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-04 12:56:02.972 [main] INFO  c.e.p.ProjectFirstApplication - Started ProjectFirstApplication in 1.458 seconds (process running for 1.866)
+2024-12-04 12:56:09.867 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 12:56:09.867 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-04 12:56:09.868 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-04 12:56:09.894 [http-nio-8080-exec-1] ERROR c.e.p.controller.HomeController - ERROR: This is API calling manas
+2024-12-04 12:56:25.650 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04 12:56:25.658 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-04 12:56:27.335 [main] INFO  c.e.p.ProjectFirstApplication - Starting ProjectFirstApplication using Java 21.0.5 with PID 2053 (/Users/manas/Downloads/projectFirst 2/target/classes started by manas in /Users/manas/Downloads/projectFirst 2)
+2024-12-04 12:56:27.336 [main] INFO  c.e.p.ProjectFirstApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-04 12:56:28.048 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-04 12:56:28.065 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:56:28.067 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-04 12:56:28.067 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04 12:56:28.101 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-04 12:56:28.102 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 719 ms
+2024-12-04 12:56:28.318 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-04 12:56:28.333 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-04 12:56:28.342 [main] INFO  c.e.p.ProjectFirstApplication - Started ProjectFirstApplication in 1.495 seconds (process running for 1.894)
+2024-12-04 12:56:35.839 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 12:56:35.840 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-04 12:56:35.840 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-04 12:56:35.866 [http-nio-8080-exec-1] ERROR c.e.p.controller.HomeController - ERROR: This is API calling manas
+2024-12-04 13:00:00.053 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04 13:00:00.064 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
